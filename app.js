@@ -5,6 +5,7 @@ function Person(name, age) {
 
 function City(name) {
     this.name = name;
+    this.population = 200000;
 }
 
 Person.prototype.greet = function() {
